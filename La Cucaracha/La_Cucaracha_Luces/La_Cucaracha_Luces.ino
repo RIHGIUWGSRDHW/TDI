@@ -523,7 +523,7 @@ void loop() {
       note9 = 1;
     }
   }
-  if (button1==LOW){
+  if (button9==LOW){
     if (note9 == 1){
       noTone(buzzerPin);
       note9 = 0;
